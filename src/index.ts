@@ -1,5 +1,3 @@
-async function main() {
-  
-}
+import { hello } from 'demo-simple-package';
 
-main();
+console.log(hello());

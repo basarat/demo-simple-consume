@@ -3,13 +3,36 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "dev": "nodemon src/index.ts",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "build:jest": "jest",
     "build:tsc": "tsc -p .",
     "dev:jest": "npm run build:jest -- --watch",
     "dev:tsc": "npm run build:tsc -- --watch",
     "build": "npm run build:jest && npm run build:tsc",
     "start": "node lib/index.js",
-    "dev": "nodemon src/index.ts",
     "test": "npm run dev:jest"
   },
   "keywords": [],
